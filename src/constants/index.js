@@ -15,14 +15,17 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  tech,
+  cn,
+  cycoder,
+  portfo,
+  citynet,
+  tw,
+  evently,
 } from "../assets";
 
 export const navLinks = [
@@ -116,24 +119,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full-stack Developer",
+    company_name: "City Network",
+    icon: cn,
+    iconBg: "#000000",
+    date: "March 2024 - July 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,28 +133,53 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Cy-coders club",
+    icon: cycoder,
+    iconBg: "#ebecf2",
+    date: "January 2024 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Google sites and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Web Developer",
+    company_name: "Portfoilo",
+    icon: portfo,
+    iconBg: "#000000",
+    date: "May 2024 - July 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Used 3D models and components from different librarys",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Development",
+    company_name: "Tech Wizard",
+    icon: tech,
+    iconBg: "#000000",
+    date: "Mar 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Application",
+    company_name: "Evently",
+    icon: evently,
+    iconBg: "#151515",
+    date: "Aug 2024 - Present",
+    points: [
+      "Developing and maintaining web application using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Event managing web app to manage and hosting of event"
     ],
   },
 ];
@@ -172,23 +187,23 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Soumya proved me wrong.",
+    name: "Aditya",
     designation: "CFO",
-    company: "Acme Co",
+    company: "City Network",
+    image: "https://randomuser.me/api/portraits/men/5.jpg ",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Soumya does.",
+    name: "Anna",
+    designation: "COO",
+    company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Soumya optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +213,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "City Network",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to upload image from various source, providing a convenient and efficient solution for Social Media.",
     tags: [
       {
         name: "react",
@@ -215,13 +230,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: citynet,
+    source_code_link: "https://city-network.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "Evently",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to host event, sell tickets for a event, and share details over a web app with a secure payment options.",
     tags: [
       {
         name: "react",
@@ -240,9 +255,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Tech wizard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A tech based company, helping new business grow online with custom web applications, and social meadia support",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +272,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tw,
+    source_code_link: "https://www.tech-wizard.in/",
   },
 ];
 
